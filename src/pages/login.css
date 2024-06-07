@@ -1,0 +1,362 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(14, 126, 201);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(70, 141, 168);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    
+}
+
+#logo{
+    width:130px;
+    height:110px;
+    margin-right: 900px;
+    margin-left: 30px;
+}
+
+#titulologo{
+    
+    flex-direction: column;
+    line-height: 1px;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+li{
+    display: inline-block;
+    margin: 35px;
+}
+
+a{
+    color: white;
+    font-size: 15px;
+    margin-right: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+a:hover{
+    color: rgb(14, 126, 201);
+    transition: 0.3s all;
+}
+
+#introducao img{
+    width: 100%;
+}
+
+#textBox{
+    background-color: rgb(5, 42, 43);
+    width: 500px;
+    height: 200px;
+    border: 2px solid rgb(50, 47, 255);
+    opacity: 0.9;
+    position: relative;
+    bottom: 800px;
+    left: 37%;
+}
+
+#textBox h1{
+    position: relative;
+    top: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#textBox h2{
+    position: relative;
+    top: 10px;
+    color: white;
+    text-align: center;
+}
+
+#textBox p{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#product h1{
+    margin-top: 1%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+
+#prodBox{
+    background-color: rgb(12, 57, 109);
+    height: 1120px;
+    opacity: 0.9;
+}
+
+#prodBox img{
+    width: 650px;
+    height: 650px;
+    position: relative;
+    left: 33%;
+    margin-top: 1%;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.9s;
+}
+
+#prodBox img:hover{
+    width: 780px;
+    height: 780px;
+    position: relative;
+    left: 30%;
+    margin-top: 1%;
+    border: 4px solid rgb(14, 126, 201);
+    box-shadow: 1px 1px 20px 1px white;
+    transition: 0.4s;
+}
+
+#prodBox p{
+    text-align: center;
+    position: relative;
+    top: 2%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+#contButton{
+    display: inline-block;
+    background-color: rgb(14, 126, 201);
+    padding: 18px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: 2px solid rgb(14, 126, 201);
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 0px 1px 2px rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 2px rgb(225, 255, 196);
+    margin-left: 45.5%;
+    position: relative;
+    top: 70px;
+    transition: .5s;
+}
+
+#contButton:hover{
+    border-radius: 20px;
+    transition: .5s;
+    border-color: rgb(14, 126, 201);
+    box-shadow: 1px 1px 10px 2px rgb(225, 255, 196);
+}
+
+#objective{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#info{
+    width: 200px;
+    margin: 0 20px;
+}
+
+#info h3 {
+    margin: 0;
+    font-size: 1.2em;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#info p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    margin-left: 50px;
+}
+
+#slideshow{
+    width: 40rem;
+    height: 40rem;
+}
+
+
+#target {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0056b3; 
+    width: 100%; /* Cobrir a largura da tela */
+    height: 100%; /* Cobrir a altura da tela */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1839px;
+}
+
+#target h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+#card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+    padding: 1.5rem;
+    transition: transform 0.3s;
+    max-width: 600px;
+    width: 100%;
+}
+
+#card:hover {
+    transform: translateY(-10px);
+}
+
+#card h2 {
+    font-size: 1.5rem;
+    color: #0056b3;
+    margin-bottom: 0.5rem;
+}
+
+#card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#afterbefore{
+    margin-left: 0px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 800px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    user-select: none;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image.after {
+    clip-path: inset(0 50% 0 0);
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 10px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: ew-resize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.handle-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+#contact #h1 h1{
+    margin-top: 4%;
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+}
+
+.geral{
+    margin-left: 39%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background-color: rgb(34, 61, 119);
+    width: 400px;
+    height: 520px;
+    border-style: inset;
+    border-color: rgb(255, 253, 253);
+    border-width: 10px;
+    color: whitesmoke;
+    
+}
+
+.geral h2{
+    margin-left: 10%;
+    margin-top: -10px;
+}
+
+.geral .login{
+    padding: 50px;
+    
+}
+
+.geral .mensagem{
+    margin-left: 20%;
+}
+
+.geral .mensagem .botao-enviar{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+#lastseccion{
+    background-color: #0056b3;
+    width: 100%;
+    height: 700px;
+}
+
+footer{
+    
+    height: 80px;
+}
+
+#footer p{
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+    font-size: 20px;
+}
