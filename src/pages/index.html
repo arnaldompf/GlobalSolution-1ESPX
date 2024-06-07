@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../public/css/fonts.css">
+    <script src="../../public/javascript/script.js"></script>
+    <title>PoseiDrone</title>
+</head>
+<body onload="slide1()">
+    <header>
+        <ul>
+            <img src="../../public/assets/images/logo-Photoroom.png" id="logo" alt="Logo PoseiDrone"></img>
+            <div id="titulologo">
+                <h1>PoseiDrone</h1>
+            </div>
+        </ul>
+
+        <ul>
+            <a href="#introducao"><li>Início</li></a>
+            <a href="#product"><li>Nossa Solução</li></a>
+            <a href="#target"><li>Público Alvo</li></a>
+            <a href="#lastseccion"><li>Contato</li></a>
+            <a href="#"><li>Login</li></a>
+        </ul>
+
+    </header>
+
+    <main>
+
+        <div id="introducao">
+            <img src="../../public/assets/images/banner.webp" alt="imagem mar poluido">
+
+            <div id="textBox">
+                <h1>PoseiDrone</h1>
+                <h2>Seja Bem-Vindo!</h2>
+                <p>Soluções sustentaveis em tecnologia</p>
+            </div> 
+        </div>
+
+        <div id="product">
+            <h1>Nossa solução</h1>
+            <div id="prodBox">
+               <img src="../../public/assets/images/poseidrone.webp" id="img" alt="imagem do nosso produto">
+               <p>Poseidrone. Um drone de baixo custo, sustentável, feito por meio de plástico reciclável</br>
+                para monitorar os mares a procura de plásticos. Tem como principal função aspirar os lixos</br>
+                encontrados enquanto monitora o mar. Conta com uma câmera acoplada e sensores para facilitar</br>
+                na detecção de lixo marítimo e usaria informações dos satélites sobre a temperatura e</br> 
+                densidade do mar em tempo real.</p>
+            
+                <div id="button">
+                    <a href="#contact" id="contButton">Tenho Interesse</a>
+                </div>
+            </div>
+        </div>
+        
+        <div id="objective">
+            <div id="info">
+                <h3>1. Proteção da Vida Marinha e dos Ecossistemas </h3>
+                <p>Preservar a fauna e flora marinha</br>
+                com o auxilio da tecnologia.</p>
+                <h3>2. Materiais do PoseiDrone </h3>
+                <p>Com o objetivo de ser sustentável, o</br>
+                que for possivel sera de materiais reciclados.</p>
+            </div>
+            <img id="slideshow" alt="slideshow com imagens de poluição no mar"></img>
+            <div id="info">
+                <h3>3. Envolvimento da comunidade </h3>
+                <p>Como uma grande inovação tecnologica, o PoseiDrone</br>
+                pode trazer interesse na preservação dos oceanos.</p>
+                <h3>4. Melhoria da qualidade da água </h3>
+                <p>Deixar ambientes de lazer mais agradaveis</br>
+                de ser frequentado.</p> 
+            </div>
+        </div>
+        
+        <div id="target">
+              <h1>Público Alvo da Solução</h1>
+            <div id="card">
+                <h2>1. Residentes costeiros</h2>
+                <p>Público que vive em comunidades costeiras que enfrentam diretamente os impactos da poluição do plastico nos oceanos.</p>
+            </div>
+            <div id="card">
+                <h2>2. Pescadores e dependentes da pesca</h2>
+                <p>A poluição marinha é uma grande ameaça para quem depende diretamente da pesca para sobreviver, tendo em vista que a fauna e flora é bastante prejudicada com a poluição.</p>
+            </div>
+            <div id="card">
+                <h2>3. Empresas e indústrias</h2>
+                <p>Empresas baseadas em operações marítimas, como o turismo, possuem o potencial de ser plenamente beneficiadas com a retirada de lixo do oceano.</p>
+            </div>
+            <div id="card">
+                <h2>4. Público no geral</h2>
+                <p>Toda a vida humada é dependente do oceano, uma solução inovadora e tecnologica pode gerar conscientização sobre a preservação dos oceanos.</p>
+            </div>
+        </div>
+            <div id="afterbefore">
+                <h1>Antes/Depois</h1>
+                <h3>Deslize para ver!</h3>
+            </div>
+        <div id="slider">
+            <div class="image before">
+                <img src="../../public/assets/images/antes.jpg" alt="mar limpo">
+            </div>
+            <div class="image after">
+                <img src="../../public/assets/images/depois.jpg" alt="mar poluido">
+            </div>
+            <div class="icon">
+                <div class="handle-icon"></div>
+            </div>
+        </div>
+
+        <div id="lastseccion">
+            <div id="contact">
+                <div id="h1">
+                    <h1>Mande Seu Contato</h1>
+                </div>
+                
+                <form class="geral">
+                    <div class="login">
+                        <h2>Envie Seu Contato</h2>
+                        <p class="usuario">
+                            <label for="Usuario">Nome</label>
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="usuarioid" placeholder="Digite seu Usuario" required="required"></p>
+                        
+                        <p class="email">
+                            <label for="Email">Email</label>
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="email" id="emailid" placeholder="Digite seu Email" required="required"></p>
+                        <p class="telefone">
+                            <label for="Telefone">Telefone</label>
+                            &nbsp&nbsp<input type="text" id="telefoneid" placeholder="Digite seu Telefone" required="required"></p><br>
+                <br>
+                <br>
+                        <div class="mensagem">
+                        <textarea placeholder="Deixe Sua Mensagem"></textarea>
+                <br>
+                    
+                        <input class="botao-enviar" type="submit" id="submit" value="Enviar">
+                        </div>
+                    </div> 
+                </form>
+            </div>
+        </div>
+
+        
+
+    </main>
+
+    <footer>
+        <div id="footer">
+            <p>&copy; COPYRIGHT - PoseiDrone</p>
+        </div>
+
+        
+    </footer>
+</body>
+</html>
