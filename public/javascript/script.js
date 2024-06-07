@@ -76,3 +76,16 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+function validar(){
+    let usuario = document.getElementById("usuario").value
+    let senha = document.getElementById("senha").value
+
+    if(usuario == "admin" && senha == "1234"){
+        alert("Acesso Permitido")
+        window.open('index.html')
+    }
+    else{
+        alert("ACESSO NEGADO!")
+    }
+}
